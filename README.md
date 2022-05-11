@@ -33,18 +33,19 @@ You are required to model the price of houses with the available independent var
 ### Both model Ridge and Lasso gives very good results
 ### we can see that the r2_scores are almost same for both the model but as we know lasso will penalize more and help in feature elimination also, so my go to model will be that only. 
 Our top 5 features are -
-- YearBuilt_Updated
+- PoolArea
+- Neighborhood_SWISU
 - KitchenQual
-- BedroomAbvGr
-- Neighborhood_Sawyer
-- BsmtFinType2
+- BstmCond
+- KitchenAbvGr
+
 
 ## Technologies Used
-- numpy 1.22.2
-- pandas 1.4.0
-- matplotlib 3.5.1
+- numpy 1.20.3
+- pandas 1.3.4
+- matplotlib 3.4.3
 - seaborn 0.11.2
-- scikit-learn 1.0.2
-- statsmodels 0.13.2
+- scikit-learn 0.24.2
+- statsmodels 0.12.2
 
 
